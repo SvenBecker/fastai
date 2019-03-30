@@ -38,6 +38,11 @@
             "file": "tests/test_text_data.py",
             "line": 110,
             "test": "test_backwards_cls_databunch"
+        },
+        {
+            "file": "tests/test_basic_data.py",
+            "line": 72,
+            "test": "test_DataBunch_save_load"
         }
     ],
     "fastai.basic_data.DataBunch.one_item": [
@@ -45,6 +50,13 @@
             "file": "tests/test_basic_data.py",
             "line": 56,
             "test": "test_DataBunch_oneitem"
+        }
+    ],
+    "fastai.basic_data.DataBunch.save": [
+        {
+            "file": "tests/test_basic_data.py",
+            "line": 72,
+            "test": "test_DataBunch_save_load"
         }
     ],
     "fastai.basic_data.DataBunch.show_batch": [
@@ -59,24 +71,29 @@
             "file": "tests/test_text_data.py",
             "line": 129,
             "test": "test_load_and_save_test"
+        },
+        {
+            "file": "tests/test_basic_data.py",
+            "line": 72,
+            "test": "test_DataBunch_save_load"
         }
     ],
     "fastai.basic_train.Learner.destroy": [
         {
             "file": "tests/test_basic_train.py",
-            "line": 158,
+            "line": 166,
             "test": "test_destroy"
         },
         {
             "file": "tests/test_basic_train.py",
-            "line": 201,
+            "line": 209,
             "test": "test_memory"
         }
     ],
     "fastai.basic_train.Learner.export": [
         {
             "file": "tests/test_basic_train.py",
-            "line": 218,
+            "line": 226,
             "test": "test_export_load_learner"
         }
     ],
@@ -116,7 +133,7 @@
         },
         {
             "file": "tests/test_basic_train.py",
-            "line": 201,
+            "line": 209,
             "test": "test_memory"
         }
     ],
@@ -145,7 +162,7 @@
         },
         {
             "file": "tests/test_basic_train.py",
-            "line": 201,
+            "line": 209,
             "test": "test_memory"
         }
     ],
@@ -157,7 +174,7 @@
         },
         {
             "file": "tests/test_basic_train.py",
-            "line": 201,
+            "line": 209,
             "test": "test_memory"
         }
     ],
@@ -195,7 +212,7 @@
     "fastai.basic_train.load_learner": [
         {
             "file": "tests/test_basic_train.py",
-            "line": 218,
+            "line": 226,
             "test": "test_export_load_learner"
         }
     ],
@@ -255,7 +272,7 @@
         },
         {
             "file": "tests/test_basic_train.py",
-            "line": 218,
+            "line": 226,
             "test": "test_export_load_learner"
         }
     ],
@@ -696,6 +713,34 @@
             "test": "test_fbeta"
         }
     ],
+    "fastai.metrics.mean_absolute_error": [
+        {
+            "file": "tests/test_metrics.py",
+            "line": 123,
+            "test": "test_mae"
+        }
+    ],
+    "fastai.metrics.mean_squared_error": [
+        {
+            "file": "tests/test_metrics.py",
+            "line": 132,
+            "test": "test_mse"
+        }
+    ],
+    "fastai.metrics.mean_squared_logarithmic_error": [
+        {
+            "file": "tests/test_metrics.py",
+            "line": 151,
+            "test": "test_msle"
+        }
+    ],
+    "fastai.metrics.root_mean_squared_error": [
+        {
+            "file": "tests/test_metrics.py",
+            "line": 141,
+            "test": "test_rmse"
+        }
+    ],
     "fastai.metrics.top_k_accuracy": [
         {
             "file": "tests/test_metrics.py",
@@ -839,21 +884,21 @@
     "fastai.text.models.qrnn.QRNN": [
         {
             "file": "tests/test_text_qrnn.py",
-            "line": 102,
+            "line": 105,
             "test": "test_qrnn_bidir"
         }
     ],
     "fastai.text.models.qrnn.QRNNLayer": [
         {
             "file": "tests/test_text_qrnn.py",
-            "line": 86,
+            "line": 96,
             "test": "test_qrnn_layer"
         }
     ],
     "fastai.text.models.qrnn.forget_mult_CPU": [
         {
             "file": "tests/test_text_qrnn.py",
-            "line": 74,
+            "line": 75,
             "test": "test_forget_mult"
         }
     ],
@@ -1368,6 +1413,20 @@
             "file": "tests/test_vision_train.py",
             "line": 78,
             "test": "test_interp_shortcut"
+        }
+    ],
+    "fastai.vision.learner.create_body": [
+        {
+            "file": "tests/test_vision_learner.py",
+            "line": 15,
+            "test": "test_create_body"
+        }
+    ],
+    "fastai.vision.learner.create_head": [
+        {
+            "file": "tests/test_vision_learner.py",
+            "line": 38,
+            "test": "test_create_head"
         }
     ],
     "fastai.vision.models.unet.DynamicUnet": [
